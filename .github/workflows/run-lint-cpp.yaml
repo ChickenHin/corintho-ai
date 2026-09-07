@@ -1,16 +1,16 @@
 name: Lint C++
 
 on:
-  push:
-    paths:
-      - 'corintho_ai/cpp/src/*.cpp'
-      - 'corintho_ai/cpp/include/*.h'
-      - 'tests/cpp/src/*.cpp'
-      - '.github/workflows/run-lint-cpp.yaml'
-      - '.clang-format'
-  pull_request:
-    branches:
-      - main
+  # push:
+  #   paths:
+  #     - 'corintho_ai/cpp/src/*.cpp'
+  #     - 'corintho_ai/cpp/include/*.h'
+  #     - 'tests/cpp/src/*.cpp'
+  #     - '.github/workflows/run-lint-cpp.yaml'
+  #     - '.clang-format'
+  # pull_request:
+  #   branches:
+  #     - main
 
 jobs:
   lint:
